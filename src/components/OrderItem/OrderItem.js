@@ -8,13 +8,13 @@ const OrderItem = ({ order }) => {
   };
   return (
     <div className="flex flex-col items-center">
-      <div className="bg-slate-300 w-[500px] p-3 my-3 flex justify-center items-center">
-        <img src={img} className="h-28" alt="" />
-        <p className="m-3">{name}</p>
-        <button
-          onClick={clicked}
-          className="btn btn-outline-danger border-0"
-        ></button>
+      <div className="bg-slate-300 w-[80%] p-3 my-3 flex justify-start items-center">
+        <div>
+          <img src={img} className="w-20" alt="" />
+        </div>
+        <div>
+          <p className="m-3">{name}</p>
+        </div>
       </div>
     </div>
   );

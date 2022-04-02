@@ -24,8 +24,8 @@ const OrderList = ({ orders }) => {
   };
 
   return (
-    <div className="cart-container text-center">
-      <h3 className="pb-3 text-2xl font-semibold">
+    <div className="bg-orange-50 p-2 w-[95%] rounded-lg text-center">
+      <h3 className="pb-3 text-xl font-semibold">
         Choose Your Favorite Nose Pins:
       </h3>
       <div className="d-flex flex-column align-content-around flex-wrap">
