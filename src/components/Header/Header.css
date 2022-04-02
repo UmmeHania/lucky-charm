@@ -1,0 +1,8 @@
+.nav-container {
+  background-color: #2b2424;
+  height: 5rem;
+  padding: 0.5rem;
+}
+.nav-container h1 code {
+  font-size: 0.8em !important;
+}

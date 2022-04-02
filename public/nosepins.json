@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "ZAMBIAN EMERALD",
+    "img": "https://i.ibb.co/BqT05C2/image1.jpg",
+    "price": "$4.71"
+  },
+  {
+    "id": 2,
+    "name": "NEELI",
+    "img": "https://i.ibb.co/dpRfk35/image2.jpg",
+    "price": "$6.62"
+  },
+  {
+    "id": 3,
+    "name": "TANZANITE",
+    "img": "https://i.ibb.co/2dzNF1b/image3.jpg",
+    "price": "$7.54"
+  },
+  {
+    "id": 4,
+    "name": "INDRANEELAM",
+    "img": "https://i.ibb.co/WHfyj09/image4.jpg",
+    "price": "$2.80"
+  },
+  {
+    "id": 5,
+    "name": "DANBURITE",
+    "img": "https://i.ibb.co/dWbg0Gh/image5.jpg",
+    "price": "$5.60"
+  },
+  {
+    "id": 6,
+    "name": "GOSHENITE",
+    "img": "https://i.ibb.co/xjRqkkb/image6.jpg",
+    "price": "$5.13"
+  },
+  {
+    "id": 7,
+    "name": "HELIODOR",
+    "img": "https://i.ibb.co/D5Y5wbw/image7.jpg",
+    "price": "$6.10"
+  },
+  {
+    "id": 8,
+    "name": "JADEITE",
+    "img": "https://i.ibb.co/861qzZ4/image8.jpg",
+    "price": "$8.91"
+  },
+  {
+    "id": 9,
+    "name": "MOONSTONE",
+    "img": "https://i.ibb.co/L1JK717/image9.jpg",
+    "price": "$4.25"
+  },
+  {
+    "id": 10,
+    "name": "OBSIDIAN",
+    "img": "https://i.ibb.co/99bBRYg/image10.jpg",
+    "price": "$6.95"
+  },
+  {
+    "id": 11,
+    "name": "PINK SAPPHIRE",
+    "img": "https://i.ibb.co/WzwJDpc/image11.jpg",
+    "price": "$4.04"
+  },
+  {
+    "id": 12,
+    "name": "TAAFFEITE",
+    "img": "https://i.ibb.co/HHY9HTc/image12.jpg",
+    "price": "$8.64"
+  }
+]

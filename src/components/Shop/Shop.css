@@ -1,0 +1,37 @@
+.pins-container {
+  margin-top: 2rem;
+}
+
+.pin-container {
+  display: grid;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+  .pins-container {
+    display: block;
+  }
+  .pin-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .pins-container {
+    display: block;
+  }
+  .pin-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .pins-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+  }
+  .pin-container {
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
