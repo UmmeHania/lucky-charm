@@ -6,12 +6,12 @@ import ChosenOne from "../ChosenOne/ChosenOne";
 const OrderList = ({ orders }) => {
   const [orderRemove, setOrdersRemove] = useState([]);
   const [chooseOne, setChooseOne] = useState([]);
-  const [display, setDisplay] = useState("d-none");
+  const [display, setDisplay] = useState("hidden");
 
   const removeItem = () => {
     orders.length = orderRemove;
     setOrdersRemove([]);
-    setDisplay("d-none");
+    setDisplay("hidden");
   };
 
   const chooseOneItem = (orders) => {
@@ -37,7 +37,7 @@ const OrderList = ({ orders }) => {
         <button
           onClick={() => {
             chooseOneItem(orders);
-            setDisplay("d-block");
+            setDisplay("block");
           }}
           type="button"
           className="focus:outline-none text-white bg-orange-400 hover:bg-orange-600 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-lg px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
@@ -50,7 +50,7 @@ const OrderList = ({ orders }) => {
         <button
           onClick={removeItem}
           type="button"
-          className="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-lg px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
+          className="focus:outline-none  text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-lg px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
         >
           Remove All
         </button>
