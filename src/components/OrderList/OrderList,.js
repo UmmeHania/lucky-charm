@@ -25,7 +25,9 @@ const OrderList = ({ orders }) => {
 
   return (
     <div className="cart-container text-center">
-      <h3 className="pt-3">Choose Your Favorite Nose Pins:</h3>
+      <h3 className="pb-3 text-2xl font-semibold">
+        Choose Your Favorite Nose Pins:
+      </h3>
       <div className="d-flex flex-column align-content-around flex-wrap">
         {orders.map((order) => (
           <OrderItem order={order} key={order.id}></OrderItem>
@@ -37,7 +39,8 @@ const OrderList = ({ orders }) => {
             chooseOneItem(orders);
             setDisplay("d-block");
           }}
-          className="btn btn-outline-secondary my-3"
+          type="button"
+          className="focus:outline-none text-white bg-orange-400 hover:bg-orange-600 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-lg px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
         >
           Confused! Let Me Choose 1
         </button>
@@ -47,7 +50,7 @@ const OrderList = ({ orders }) => {
         <button
           onClick={removeItem}
           type="button"
-          class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
+          className="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-lg px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900"
         >
           Remove All
         </button>

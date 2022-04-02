@@ -7,13 +7,14 @@ const OrderItem = ({ order }) => {
     console.log("Clicked");
   };
   return (
-    <div>
-      <div className="d-flex justify-content-start m-3">
-        <img src={img} height="50px" alt="" />
+    <div className="flex flex-col items-center">
+      <div className="bg-slate-300 w-[500px] p-3 my-3 flex justify-center items-center">
+        <img src={img} className="h-28" alt="" />
         <p className="m-3">{name}</p>
-        <button onClick={clicked} className="btn btn-outline-danger border-0">
-          <BsTrash></BsTrash>
-        </button>
+        <button
+          onClick={clicked}
+          className="btn btn-outline-danger border-0"
+        ></button>
       </div>
     </div>
   );
