@@ -1,6 +1,5 @@
 import React from "react";
 import { BsCartCheck } from "react-icons/bs";
-import "./Pin.css";
 
 const Pin = ({ pin, addToCart }) => {
   const { name, price, img } = pin;

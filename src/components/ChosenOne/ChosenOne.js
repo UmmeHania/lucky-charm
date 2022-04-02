@@ -1,7 +1,6 @@
 import React from "react";
 
 const ChosenOne = (props) => {
-  console.log(props);
   if (!props.chooseOne) {
     return (
       <div className="bg-success d-flex flex-row align-items-center justify-content-center px-2 mb-3">
